@@ -1,0 +1,15 @@
+{
+  "name": "playground-api",
+  "version": "1.0.0",
+  "description": "API for the Angular Playground App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Benjamin W. Crouch II",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
