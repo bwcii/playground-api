@@ -5,6 +5,7 @@ const app = express();
 // Shout out to @m-a-r-c-l-i-n-o on stack overflow. I have so much to learn.
 // https://stackoverflow.com/questions/37632025/in-a-nodejs-app-how-do-i-make-an-http-client-request-inside-an-express-method
 app.get('/randomCats', function (req, res) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
 
   var str = '';
 
